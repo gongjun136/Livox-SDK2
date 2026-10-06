@@ -224,7 +224,7 @@ pipeline {
                 "-u root " +
                 "--cpus=14 " +
                 "--memory=16g " +
-                "-v ${WORKSPACE}:/home/sany/work/wheel_loader/src/drivers/lidars/Livox-SDK " +
+                "-v ${WORKSPACE}:/home/sany/work/wheel_loader/src/drivers/lidars/Livox-SDK2 " +
                 "-v ${WORKSPACE}/build/${SAFE_REF}:/home/sany/work/wheel_loader/build " +
                 "-v ${WORKSPACE}/install/${SAFE_REF}:/home/sany/work/wheel_loader/install " +
                 "-v ${WORKSPACE}/log/${SAFE_REF}:/home/sany/work/wheel_loader/log " +
